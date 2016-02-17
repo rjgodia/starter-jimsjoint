@@ -86,8 +86,16 @@ class Order extends Application {
         $this->data['title'] = 'Checking Out';
         $this->data['pagebody'] = 'show_order';
         $this->data['order_num'] = $order_num;
-        //FIXME
+        $this->data['total'] = number_format($this->orders->total($order_num), 2);
 
+        $this->data['items'] = array();
+        foreach($this->orderitems->group($order_num) as $item)
+        {
+            $item->code = $this->menu->get($item->item)->name;
+            $this->data['items'][] = $item;
+        }
+
+        $this->data['okornot'] = $this->orders->validate($order_num) ? '' : 'disabled';
         $this->render();
     }
 
