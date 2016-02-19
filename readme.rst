@@ -17,6 +17,7 @@ Change Logs
 
 Update 1: Modified read me
 
+Update 2: Loading all models from autoload.php
 *******
 License
 *******
