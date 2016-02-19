@@ -25,7 +25,7 @@ $config['menu_choices'] = array(
 | environments.
 |
 */
-$config['base_url'] = 'http://lab5.local:8081/';
+$config['base_url'] = 'http://comp4711lab5.local:8081/';
 
 /*
 |--------------------------------------------------------------------------
