@@ -11,7 +11,11 @@ Your job is to fix it, following the directions in lab 04.
 Server Requirements
 *******************
 
-CodeIgniter 3.0
+*******************
+Change Logs
+*******************
+
+Update 1: Modified read me
 
 *******
 License
