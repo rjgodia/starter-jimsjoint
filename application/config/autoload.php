@@ -122,7 +122,6 @@ $autoload['config'] = array();
 
 $autoload['language'] = array();
 
-
 /*
 | -------------------------------------------------------------------
 |  Auto-load Models
@@ -136,5 +135,5 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-
-$autoload['model'] = array('menu', 'orderitems', 'orders');
+ 
+$autoload['model'] = array('Menu', 'Orders', 'Orderitems');

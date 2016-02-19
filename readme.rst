@@ -18,6 +18,15 @@ Change Logs
 Update 1: Modified read me
 
 Update 2: Loading all models from autoload.php
+
+Update 3: Updated base_url config
+
+Update 4: Handled Menu page
+
+Update 5: Handled New Order
+
+Update 6: Handled Checkout, Proceed, and Cancel states
+
 *******
 License
 *******

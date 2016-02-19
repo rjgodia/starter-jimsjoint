@@ -30,7 +30,7 @@ class Welcome extends Application {
 
         // Build a multi-dimensional array for reporting
         $this->data['orders'] = array();
-        foreach ($this->orders->some('status', 'c') as $order) {
+        foreach ($this->Orders->some('status', 'c') as $order) {
             $this1 = array(
                 'num' => $order->num,
                 'datetime' => $order->date,
